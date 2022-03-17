@@ -1,2 +1,2 @@
 release: ./bin/deployment.sh
-web: npm run start:prod src/
+web: npm install src/
