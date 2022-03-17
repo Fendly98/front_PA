@@ -1,2 +1,0 @@
-release: ./bin/deployment.sh
-web: npm install /src
