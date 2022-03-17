@@ -1,13 +1,16 @@
 {
   "name": "client-app",
   "version": "0.0.0",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "heroku-postbuild": "ng build --prod",
     "watch": "ng build --watch --configuration development",
     "start:prod": "node server.js",
-    "heroku-postbuild": "ng build --aot --prod",
     "test": "ng test"
   },
   "private": true,

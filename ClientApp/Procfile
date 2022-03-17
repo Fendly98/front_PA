@@ -1,2 +1,2 @@
 release: ./bin/deployment.sh
-web: node server.js
+web: npm install /src
