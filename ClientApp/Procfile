@@ -1,2 +1,2 @@
 release: ./bin/deployment.sh
-web: npm install
+web: npm run start:prod
